@@ -9,9 +9,7 @@
         android:id="@+id/vp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
     </androidx.viewpager2.widget.ViewPager2>
-
     <View
         android:background="#ccc"
         app:layout_constraintStart_toStartOf="@+id/tabs"
@@ -30,10 +28,5 @@
         android:layout_marginBottom="50dp"
         android:layout_width="300dp"
         android:layout_height="40dp">
-
     </com.google.android.material.tabs.TabLayout>
-
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

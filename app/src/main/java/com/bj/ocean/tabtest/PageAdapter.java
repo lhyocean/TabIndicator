@@ -20,7 +20,6 @@ public class PageAdapter extends FragmentStateAdapter {
         this.fragments = fragments;
     }
 
-
     @NonNull
     @Override
     public Fragment createFragment(int position) {
