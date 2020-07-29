@@ -56,7 +56,7 @@
 
 ```
 
-# 实现指示器渐变颜色，可以添加滚动callBack 
+# 实现指示器渐变颜色，可以添加滚动callBack ` 
 
 ```
  vp.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
@@ -96,3 +96,5 @@
             }
         });
 ```
+
+
