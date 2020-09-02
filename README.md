@@ -1,9 +1,9 @@
-# TabIndicator
+# **TabIndicator**
 
 # Viewpager2 +Fragment 及TabLayout demo
   实现了TabIndicator 的渐变效果
   
-  实现核心思路  
+  *实现核心思路*  
   使用 ArgbEvaluator 做颜色渐变效果， 源码分析
   ```
   public Object evaluate(float fraction, Object startValue, Object endValue) {

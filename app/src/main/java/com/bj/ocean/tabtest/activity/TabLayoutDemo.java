@@ -1,4 +1,4 @@
-package com.bj.ocean.tabtest;
+package com.bj.ocean.tabtest.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,13 +8,18 @@ import androidx.viewpager2.widget.ViewPager2;
 import android.animation.ArgbEvaluator;
 import android.os.Bundle;
 
+import com.bj.ocean.tabtest.FragmentA;
+import com.bj.ocean.tabtest.FragmentB;
+import com.bj.ocean.tabtest.FragmentC;
+import com.bj.ocean.tabtest.PageAdapter;
+import com.bj.ocean.tabtest.R;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class TabLayoutDemo extends AppCompatActivity {
 
     List<Fragment> fragments = new ArrayList<>();
     List<String> titles = new ArrayList<>();
@@ -28,11 +33,12 @@ public class MainActivity extends AppCompatActivity {
 
         final TabLayout tabLayout = findViewById(R.id.tabs);
         ViewPager2 vp = findViewById(R.id.vp);
+        vp.setUserInputEnabled(false); // 禁止滑动
 
         fragments.clear();
         fragments.add(new FragmentA());
-        fragments.add(new FragmentA());
-        fragments.add(new FragmentA());
+        fragments.add(new FragmentB());
+        fragments.add(new FragmentC());
         fragments.add(new FragmentA());
         titles.clear();
         titles.add("小🐱🐯");

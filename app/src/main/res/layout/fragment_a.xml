@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<androidx.constraintlayout.motion.widget.MotionLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:motionDebug="SHOW_ALL"
+    app:layoutDescription="@xml/step3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
 
-    <Button
+    <ImageView
+        android:id="@+id/ball"
+        android:src="@mipmap/ic_launcher_round"
         android:layout_width="wrap_content"
-        android:text="啊大大"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/ball1"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/ball2"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/ball3"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
