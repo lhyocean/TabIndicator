@@ -25,7 +25,7 @@ public class FragmentB extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        MotionLayout motionLayout=view.findViewById(R.id.motion_lay);
+
 
     }
     @Nullable

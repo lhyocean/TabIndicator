@@ -35,6 +35,10 @@ public class TabLayoutDemo extends AppCompatActivity {
         ViewPager2 vp = findViewById(R.id.vp);
         vp.setUserInputEnabled(false); // 禁止滑动
 
+
+
+
+        //  sdhdsa;'djaksl;d'
         fragments.clear();
         fragments.add(new FragmentA());
         fragments.add(new FragmentB());
