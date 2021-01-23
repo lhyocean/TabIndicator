@@ -37,12 +37,14 @@ public class TabLayoutDemo extends AppCompatActivity {
         vp.setUserInputEnabled(false); // 禁止滑动
 
 
+        // sadadasdasda
          //ada;asla
         //adsjksadas
         Log.e("", "onCreate: "+"我是tab123分支");
 
-        // sadadasdasda
         //  sdhdsa;'djaksl;d'
+
+        Log.e("dasda", "onCreate: ");
         fragments.clear();
         fragments.add(new FragmentA());
         fragments.add(new FragmentB());
