@@ -7,6 +7,7 @@ import androidx.viewpager2.widget.ViewPager2;
 
 import android.animation.ArgbEvaluator;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.bj.ocean.tabtest.FragmentA;
 import com.bj.ocean.tabtest.FragmentB;
@@ -38,6 +39,7 @@ public class TabLayoutDemo extends AppCompatActivity {
 
          //ada;asla
         //adsjksadas
+        Log.e("", "onCreate: "+"我是tab123分支");
 
         //  sdhdsa;'djaksl;d'
         fragments.clear();
