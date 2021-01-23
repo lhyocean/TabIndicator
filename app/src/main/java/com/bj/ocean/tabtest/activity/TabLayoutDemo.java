@@ -37,7 +37,7 @@ public class TabLayoutDemo extends AppCompatActivity {
 
 
 
-
+      // dadhjas
         //  sdhdsa;'djaksl;d'
         fragments.clear();
         fragments.add(new FragmentA());
