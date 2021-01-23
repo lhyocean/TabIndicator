@@ -36,8 +36,9 @@ public class TabLayoutDemo extends AppCompatActivity {
         vp.setUserInputEnabled(false); // 禁止滑动
 
 
+         //ada;asla
+        //adsjksadas
 
-      // dadhjas
         //  sdhdsa;'djaksl;d'
         fragments.clear();
         fragments.add(new FragmentA());
