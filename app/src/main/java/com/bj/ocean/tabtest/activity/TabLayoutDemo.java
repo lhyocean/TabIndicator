@@ -38,6 +38,10 @@ public class TabLayoutDemo extends AppCompatActivity {
 
 
         // sadadasdasda
+         //ada;asla
+        //adsjksadas
+        Log.e("", "onCreate: "+"我是tab123分支");
+
         //  sdhdsa;'djaksl;d'
 
         Log.e("dasda", "onCreate: ");
