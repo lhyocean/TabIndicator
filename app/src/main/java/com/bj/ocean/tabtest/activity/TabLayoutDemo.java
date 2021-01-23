@@ -7,6 +7,7 @@ import androidx.viewpager2.widget.ViewPager2;
 
 import android.animation.ArgbEvaluator;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.bj.ocean.tabtest.FragmentA;
 import com.bj.ocean.tabtest.FragmentB;
@@ -36,10 +37,10 @@ public class TabLayoutDemo extends AppCompatActivity {
         vp.setUserInputEnabled(false); // 禁止滑动
 
 
-
-
         // sadadasdasda
         //  sdhdsa;'djaksl;d'
+
+        Log.e("dasda", "onCreate: ");
         fragments.clear();
         fragments.add(new FragmentA());
         fragments.add(new FragmentB());
